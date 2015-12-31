@@ -1,0 +1,8 @@
+Origin: 000Nick
+Label: 000Nick's repo
+Suite: stable
+Version: 0.1
+Codename: 000nickrepo
+Architectures: iphoneos-arm
+Components: main
+Description: 000Nick's Cydia Repository
