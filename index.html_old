@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>000Nick's Official Website</title>
+	</head>
+	<body>
+    
+<body background="background.jpg" bgcolor="#333333"> 
+		<div class="container">
+    		<div class="blurb">
+        		<h1>Website is under construction!</h1>
+				<p>More will come soon! :)</p>
+    		</div>
+		</div>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+    		</ul>
+		</nav>
+	</body>
+</html>
