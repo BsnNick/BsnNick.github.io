@@ -1,4 +1,4 @@
 # bsnnick.github.io
 My WIP website!
 
-bsnnick.github.io
+http://bsnnick.github.io/
