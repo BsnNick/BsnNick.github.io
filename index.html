@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
 	<script>
-	var text, width, container;
-	width = "200px";        // set this to whatever you like
-	text = some_function();
-	
-	// you can create a <div id="text-container"></div> in your
-	// HTML wherever you want the text to show up, or you can
-	// the JavaScript just create it at the bottom of the page
-	
-	container = document.getElementById("text-container");
-	if(!container) {
-	    container = document.createElement("div");
-	    container.id = "text-container";
-	    document.body.appendChild(container);
-	}
-	
-	container.style.width=width;
-	container.innerHTML = text;
+		
+		
+		var text, width, container;
+		width = "200px";        // set this to whatever you like
+		text = document.writedocument.getElementById("phone1").value + document.getElementById("phone2").value + document.getElementById("phone3").value;
+		
+		// you can create a <div id="text-container"></div> in your
+		// HTML wherever you want the text to show up, or you can
+		// the JavaScript just create it at the bottom of the page
+		
+		container = document.getElementById("text-container");
+		if(!container) {
+		    container = document.createElement("div");
+		    container.id = "text-container";
+		    document.body.appendChild(container);
+		}
+		
+		container.style.width=width;
+		container.innerHTML = text;
 	</script>
 	<head>
 		<title>000Nick's Official Website</title>
