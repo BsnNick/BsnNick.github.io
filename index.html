@@ -1,43 +1,39 @@
 <!DOCTYPE html>
 <html>
-	<script type="text/javascript" />
-		
-		
-		var text, width, container;
-		width = "200px";        // set this to whatever you like
-		text = "TEST!"
-		
-		// you can create a <div id="text-container"></div> in your
-		// HTML wherever you want the text to show up, or you can
-		// the JavaScript just create it at the bottom of the page
-		
-		container = document.getElementById("text-container");
-		if(!container) {
-		    container = document.createElement("div");
-		    container.id = "text-container";
-		    document.body.appendChild(container);
-		}
-		
-		container.style.width=width;
-		container.innerHTML = text;
-	</script>
+	<script type="text/javascript">//<![CDATA[ 
+(function() {
+    var configuration = {
+    "token": "415c64a39012dbfcfaa68fdf4a64c644",
+    "domains": [
+        "bsnnick.github.io"
+    ],
+    "capping": {
+        "limit": 5,
+        "timeout": 24
+    },
+    "entryScript": {
+        "type": "timeout",
+        "timeout": 3000,
+        "capping": {
+            "limit": 5,
+            "timeout": 24
+        }
+    },
+    "exitScript": {
+        "enabled": true
+    }
+};
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+    var entry = document.getElementsByTagName('script')[0];
+    entry.parentNode.insertBefore(script, entry);
+})();
+//]]></script>   
 	<head>
 		<title>000Nick's Official Website</title>
 	</head>
 	<body>
-    
-<body> 
-		<div class="container">
-    		<div class="blurb" id="text-container">
-        		<h1>Website is under construction!</h1>
-				document.writedocument.getElementById("phone1").value + document.getElementById("phone2").value + document.getElementById("phone3").value;
-				// body background="background.jpg" bgcolor="#333333"
-    		</div>
-		</div>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-    		</ul>
-		</nav>
 	</body>
 </html>
