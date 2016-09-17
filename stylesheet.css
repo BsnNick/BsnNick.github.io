@@ -20,7 +20,7 @@ body {
     position: relative;
     background: #fff
 }
-.backgrounnd:after {
+.background:after {
     display: block;
     content: "";
     padding-bottom: 60%
