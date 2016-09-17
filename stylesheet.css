@@ -20,3 +20,8 @@ background-blend-mode: screen;
 width: 100%;
 height: 100%;
 }
+
+.gradientBg {
+    width: 100%;
+    height: 100%;
+}
