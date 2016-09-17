@@ -25,6 +25,12 @@ body {
     content: "";
     padding-bottom: 60%
 }
+.preview .background {
+    opacity: 0
+}
+.fallback .background {
+    background-blend-mode: normal!important
+}
 .container {
     position: relative;
     max-width: 80rem;
@@ -51,4 +57,41 @@ body {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap
+}
+.go {
+    opacity: 1
+}
+.tile {
+    display: inline-block;
+    color: #16161d;
+    position: relative;
+    padding: 1rem;
+    -webkit-transition: -webkit-transform .45s cubic-bezier(0.5, .9, .25, 1.15), opacity .45s;
+    transition: transform .45s cubic-bezier(0.5, .9, .25, 1.15), opacity .45s;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 19rem;
+    -ms-flex: 1 0 19rem;
+    flex: 1 0 19rem
+}
+@media (min-width: 30rem) {
+    .tile {
+        -webkit-flex-basis: 22rem;
+        -ms-flex: 0 1 22rem;
+        flex-basis: 22rem
+    }
+}
+.tile.opened {
+    z-index: 200;
+    -webkit-transition: -webkit-transform .45s cubic-bezier(0.5, .9, .25, 1.15), opacity .45s;
+    transition: transform .45s cubic-bezier(0.5, .9, .25, 1.15), opacity .45s
+}
+.tile.opened:hover {
+    -webkit-transition: -webkit-transform .45s cubic-bezier(0.5, .9, .25, 1.15), opacity .45s;
+    transition: transform .45s cubic-bezier(0.5, .9, .25, 1.15), opacity .45s
+}
+.preview .tile:not(.opened) {
+    pointer-events: none;
+    -webkit-transition: 0;
+    transition: 0;
+    opacity: 0
 }
