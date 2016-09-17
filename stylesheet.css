@@ -7,6 +7,12 @@
     padding: 0;
     border: 0
 }
+body {
+    font-family: "Source Sans Pro";
+    background: #cccac4;
+    color: #16161d;
+    overflow-x: hidden
+}
 .top {
     border-radius: .5rem .5rem 0 0
 }
