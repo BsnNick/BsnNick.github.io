@@ -12,3 +12,11 @@
 .top {
     border-radius: .5rem .5rem 0 0
 }
+.background {
+    position: relative;
+    background: #fff
+}
+.backgrounnd:after {
+    display: block;
+    content: "";
+    padding-bottom: 60%
