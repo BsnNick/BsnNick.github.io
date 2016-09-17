@@ -24,3 +24,26 @@ body {
     display: block;
     content: "";
     padding-bottom: 60%
+}
+.container {
+    position: relative;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: .25rem
+}
+.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+.background-container {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    min-height: 100%;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
